@@ -1,0 +1,344 @@
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0075ff;
+  color: white;
+  border: solid 1px #0075ff;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075ff;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0rem;
+}
+.main-menu li {
+  font-size: 0.75rem;
+  list-style: none;
+  display: inline;
+  margin-right: 1.5rem;
+}
+.main-menu li a {
+  color: black;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm {
+  margin: 0.7rem 0rem;
+}
+.icon-sm i {
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  margin: 0.4rem 0;
+  color: #0075ff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0rem 1.1rem;
+}
+.benefit i {
+  color: #0075ff;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.benefit .description {
+  flex-grow: 1;
+}
+.benefit .description .title {
+  font-size: 1.35rem;
+  text-align: center;
+}
+.benefit .description .text {
+  font-size: 0.8rem;
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.benefit .cta {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: #0075ff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc i {
+  color: #0075ff;
+  font-size: 5rem;
+  padding: 0rem;
+}
+.icon-desc .title {
+  margin-top: -0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+main {
+  min-width: 350px;
+  max-width: 992px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo a img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+  max-width: 400px;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+
+.sec-features {
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-features .features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sec-features .features .feature-text {
+  padding: 2rem 0rem;
+  max-width: 340px;
+}
+.sec-features .features .feature-text .feature-pic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sec-features .features .feature-text .feature-pic .description {
+  margin-left: 1rem;
+}
+.sec-features .features .feature-text .feature-pic .description .description-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .feature-text .feature-pic .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .feature-image img {
+  max-width: 26rem;
+}
+
+.sec-benefits {
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  border-top: 1px solid #ddd;
+}
+.sec-benefits .intro {
+  text-align: center;
+}
+.sec-benefits .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-benefits .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-benefits .benefit-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0rem 2rem 2rem 2rem;
+  margin: 0;
+}
+
+.sec-kpis {
+  width: 100%;
+  background-color: #0075ff;
+  color: white;
+  padding: 2rem 5.5rem;
+  margin: 0;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6666666667);
+}
+
+.sec-onboarding {
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-onboarding .intro {
+  text-align: center;
+}
+.sec-onboarding .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-onboarding .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-onboarding .steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem 0rem 3rem;
+}
+.sec-onboarding .steps .step-separator {
+  flex-grow: 1;
+  border-top: 2px solid #ddd;
+  margin: 0 1rem;
+}
+
+.sec-footer-cta {
+  max-width: 992px;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  background-color: #F4F8FE;
+  background-image: url("./../assets/img/bg.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.sec-footer-cta .footer-cta {
+  max-width: 340px;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 1.8rem;
+}
+.sec-footer-cta .footer-cta .cta-description {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .sec-home {
+    flex-direction: column-reverse;
+  }
+  .sec-home .home-cta {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .sec-home .home-cta .home-title {
+    margin: 0.4rem auto 0.7rem auto;
+  }
+  .sec-home .home-img img {
+    width: 10rem;
+  }
+  .sec-features .features {
+    justify-content: center;
+  }
+  .sec-benefits .benefit {
+    max-width: 290px;
+  }
+  .sec-benefits .benefit .cta {
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .sec-kpis {
+    gap: 1.5rem;
+  }
+  .sec-onboarding .steps {
+    flex-direction: column;
+    padding-top: 0.3rem;
+  }
+  .sec-onboarding .steps .step-separator {
+    display: none;
+  }
+  .sec-onboarding .steps .icon-desc h4 {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+  }
+  .sec-footer-cta .footer-cta {
+    max-width: 340px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
